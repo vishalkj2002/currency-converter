@@ -117,6 +117,7 @@ form .drop-list {
     cursor: pointer;
     font-size: 22px;
     margin-top: 30px;
+    color: cornflowerblue;
 }
 
 form .exchange-rate {
@@ -138,6 +139,11 @@ form button {
     margin-top: -10px;
 }
 
+.get-exchange-rate.loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
 .amount {
     margin-top: 20px;
 }
@@ -148,4 +154,9 @@ form button {
 
 .convert-currency {
     margin-top: 25px;
+}
+
+.convert-currency:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
