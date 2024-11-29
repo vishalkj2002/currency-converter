@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -18,10 +19,6 @@
     <div class="main-container">
       <header>Currency Converter</header>
       <form action="#">
-        <div class="amount">
-          <p>Enter Amount</p>
-          <input type="text" value="1" />
-        </div>
         <div class="drop-list">
           <div class="from">
             <p>From</p>
@@ -39,8 +36,20 @@
             </div>
           </div>
         </div>
-        <div class="exchange-rate">1 USD = 84.47 INR</div>
-        <button>Get Exchange Rate</button>
+        <div class="exchange-rate">
+          <p>Exchange Rate:</p>
+          <p>1 USD = 84.47 INR</p>
+        </div>
+        <button class="get-exchange-rate">Get Exchange Rate</button>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1" />
+        </div>
+        <div class="converted-amount">
+          <p>Converted Amount</p>
+          <input type="text" value="1">
+        </div>
+        <button class="convert-currency">Convert</button>
       </form>
     </div>
   </body>

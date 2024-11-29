@@ -33,7 +33,7 @@ body {
 }
 
 .main-container form {
-    margin: 40px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 form :where(input, select, button) {
@@ -130,4 +130,22 @@ form button {
     font-size: 17px;
     cursor: pointer;
     background: cornflowerblue;
+}
+
+
+
+.get-exchange-rate {
+    margin-top: -10px;
+}
+
+.amount {
+    margin-top: 20px;
+}
+
+.converted-amount {
+    margin-top: 20px;
+}
+
+.convert-currency {
+    margin-top: 25px;
 }
